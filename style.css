@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url(https://use.typekit.net/cmj8vek.css);
+
+a.button,
+body {
+  font-size: 150%;
+  font-family: ff-enzo-web, Helvetica, "Lucida Grande", "Trebuchet MS", Verdana,
+    Arial, sans-serif;
+}
+input,
+select,
+textarea,
+.chzn-container {
+  font-size: 100%;
+  font-family: ff-enzo-web, Helvetica, "Lucida Grande", "Trebuchet MS", Verdana,
+    Arial, sans-serif;
+  /* font-family: monospace; */
+  /* font-size: 17px !important; */
+  /* font-weight: 900; */
+}
+b {
+  font-weight: 900 !important;
+}
+.weeknav {
+  font-size: 80%;
+  /* min-width: 1000px; */
+}
+
+#header > .inner-extra,
+#main,
+#box,
+#new > form {
+  background: none;
+  border: none;
+  margin: 0;
+}
+
+#footer,
+#topheader .whole,
+#header h1 em,
+label,
+a.services,
+/*#content li.entry div.outside,*/
+form span.help,
+.autogrow_textarea_help,
+li.entry > ul > li.minutes > a > span,
+li.entry > ul > li:nth-child(2),
+li.entry > ul > li:nth-child(1) > a > span,
+.chzn-search > a,
+.chzn-container .chzn-selected div b,
+#chzn-1_1,
+#chzn-1_0,
+#chzn-3_0,
+#chzn-3_1,
+#chzn-container-1 .chzn-search,
+#topheader > div > div.side {
+  display: none !important;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#header .second,
+#topheader,
+#topheader .inner,
+#topheader,
+#main,
+#main > div.inner > div.main,
+#header,
+div.inner,
+form.horizontal div.field.xscale > div.single,
+#new {
+  padding: 0;
+  margin: 0 !important;
+  min-width: initial;
+  border: 0;
+  max-width: initial;
+  width: initial;
+}
+
+.side,
+h1,
+.main,
+.right,
+#subnav,
+#subnav.weeknav > ul,
+.whole,
+.main-extra,
+form div.submit,
+form div.submit a,
+.side a.button {
+  float: none !important;
+  width: initial;
+  padding: 0 !important;
+}
+form div.field,
+ul.actions > li a > * {
+  float: none;
+}
+#header .side {
+  margin: 120px 0 0 3px;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.c:after {
+  content: none;
+}
+
+#subnav {
+  margin: 10px -30px 80px;
+}
+#content {
+  clear: both;
+}
+
+#topheader .whole {
+  background-image: url("https://www.tricks.de/img/logo/tricks-logo.svg");
+  color: transparent;
+  background-repeat: no-repeat;
+  width: 100px;
+  margin: 4px 20px;
+}
+
+#header > .inner-extra {
+  min-width: initial;
+}
+
+#content li.entry,
+form.horizontal div.field.xscale {
+  display: flex;
+  border: 0;
+  justify-content: space-between;
+}
+
+.chzn-is-open .chzn-selected {
+  box-shadow: none;
+  border: 0;
+}
+
+a.button,
+a.button:before,
+body#daily #topheader ul.mainnav a.time_entries,
+body#reports #topheader ul.mainnav a.reports,
+body#projects #topheader ul.mainnav a.projects,
+body#customers #topheader ul.mainnav a.customers,
+body#services #topheader ul.mainnav a.services,
+body#users #topheader ul.mainnav a.users,
+body#accounts #topheader ul.mainnav a.account,
+body#account #topheader ul.mainnav a.account,
+body#payment #topheader ul.mainnav a.account,
+body#myself #topheader ul.mainnav a.account,
+#topheader ul.mainnav a,
+#content div.info#no_entries p a,
+form div.submit a,
+.side a.button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px !important;
+  font-size: 20px !important;
+  margin: 10px;
+  line-height: initial;
+  left: initial;
+  width: fit-content;
+}
+a.button b,
+a.button:before,
+a.button:after {
+  content: none;
+}
+
+#main,
+#content li.entry p,
+#content div.info#no_entries p strong,
+#weeknav_header ul li {
+  color: white;
+  text-decoration: none;
+}
+
+#content li.entry {
+  background: transparent !important;
+  color: white;
+}
+
+#subnav a.today,
+#subnav a:hover,
+#subnav a.hovered,
+.prio_1 .prio_text {
+  color: #ea554d !important;
+}
+
+li.entry.tracking ul.actions a.tracker b.minutes,
+.prio_1 .prio_bg,
+#message span {
+  background: #ea554d;
+}
+#subnav a.current {
+  color: #282828;
+}
+
+ul.actions {
+  display: flex;
+  width: initial !important;
+  flex-direction: row-reverse;
+}
+
+#content li.entry div.text {
+  flex-grow: 1;
+  width: initial !important;
+}
+
+ul.actions li a.delete:after {
+  content: "✖️";
+  color: #ea554d;
+  position: static;
+  visibility: visible;
+}
+
+#minutes_sum {
+  margin: 0 10px 0 0;
+  font-size: inherit;
+}
+
+form div.field {
+  padding: 15px 0;
+  width: inherit !important;
+  clear: both;
+}
+
+#new_time_entry {
+  padding: 90px 0 0 0 !important;
+  margin-bottom: -150px !important;
+}
+
+#content div.info#no_entries p a:focus,
+#content div.info#no_entries p a:hover {
+  color: white;
+}
+
+body,
+.chzn-container .chzn-options {
+  background-color: #282828f2;
+  background-image: url(https://www.tricks.de/img/logo/tricks-logo.svg);
+  background-size: 150px;
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-attachment: fixed;
+  color: white;
+}
+
+.chzn-container .chzn-selected {
+  height: 50px;
+  line-height: 50px;
+  background-image: none;
+  border: 0 !important;
+  box-shadow: none;
+}
+
+.chzn-container .chzn-selected div {
+  width: 22px;
+}
+
+.chzn-container .chzn-selected div:after {
+  content: "▼";
+}
+
+.chzn-container .chzn-selected span {
+  margin-right: 30px;
+}
+
+#message {
+  min-width: initial;
+  font-size: 150%;
+  top: initial;
+  bottom: 1.2em;
+}
+
+#content li.entry div.outside {
+  background-color: transparent;
+}
